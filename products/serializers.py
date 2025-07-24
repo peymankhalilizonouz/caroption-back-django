@@ -1,5 +1,6 @@
-from products.models import Product
 from rest_framework.serializers import ModelSerializer, StringRelatedField
+
+from products.models import Product
 
 
 class ProductSerializer(ModelSerializer):
